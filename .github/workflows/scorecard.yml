@@ -33,6 +33,7 @@ jobs:
         uses: docker://gcr.io/openssf/scorecard-action:latest
         with:
           entrypoint: "/scorecard-action"
+          internal_default_token: ${{ secrets.GITHUB_TOKEN }}
           results_file: results.sarif
           results_format: sarif
           # (Optional) "write" PAT token. Uncomment the `repo_token` line below if:

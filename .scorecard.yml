@@ -1,5 +1,5 @@
 annotations:
   - checks:
-      - code-review
+      - maintained
     reasons:
-      - reason: not-supported # code review is done telepathically
+      - reason: not-supported # this repo is done!

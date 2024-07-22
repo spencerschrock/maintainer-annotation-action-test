@@ -1,5 +1,8 @@
 annotations:
   - checks:
       - maintained
+      - branch-protection
+      - code-review
+      - sast
     reasons:
       - reason: not-supported # this repo is done!
